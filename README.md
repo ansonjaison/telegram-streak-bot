@@ -28,9 +28,9 @@ Designed for small communities or close-knit circles, it’s lightweight, custom
 ## 📁 Project Structure
 
 ```
-mr-manager-bot/
+telegram-streak-bot/
 ├── main.py            # Main bot code (everything in one place)
-├── userdata.json      # (REQUIRED) Empty file created by user manually
+├── user_data.json      # (REQUIRED) Empty file created by user manually
 ├── requirements.txt   # Python dependencies
 ├── .gitignore         # To avoid uploading runtime/cache files
 ├── README.md          # You’re reading it
@@ -52,7 +52,7 @@ mr-manager-bot/
 2. **Paste your bot token** into the `main.py` where required.
 3. **Run the script** (you can use Replit or your local machine).
 4. Your bot will start responding to commands in your Telegram group.
-5. Data will be saved inside the `userdata.json` file during runtime.
+5. Data will be saved inside the `user_data.json` file during runtime.
 
 ---
 
@@ -77,8 +77,8 @@ source venv/bin/activate  # On Windows: venv\Scripts\activate
 # Install dependencies
 pip install -r requirements.txt
 
-# Create userdata.json with an empty object:
-echo "{}" > userdata.json
+# Create user_data.json with an empty object:
+echo "{}" > user_data.json
 
 # Run the bot
 python main.py
