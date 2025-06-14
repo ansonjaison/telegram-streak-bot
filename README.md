@@ -13,15 +13,32 @@
 Designed for small communities or close-knit circles, it’s lightweight, customizable, and runs entirely from a single Python file!
 
 ---
+## ✨ Key Features of Mr Manager Bot
 
-## 🛠️ Features
+Track user activity, reward consistency, and keep your group lively — all on autopilot!
 
-- Group management tools
-- Customizable commands
-- Smart response logic
-- Lightweight and simple – runs from `main.py` only
-- Built with Python + `python-telegram-bot` library
-- Uses a local `.json` file to store user-specific data
+### 🔥 Streak System
+- ✅ **Daily Streak Tracking**: Automatically tracks daily streaks for each active group member.
+- 📆 **Midnight Auto-Update**: Updates streaks daily at midnight — no manual triggers needed.
+- ⚠️ **Missed Day Warnings**: Warns users who miss a day (logic can be customized).
+- 🧨 **Streak Reset Logic**: Resets a user's streak after missing two consecutive days (configurable).
+- 🏆 **Leaderboard**: Displays top streak holders on command.
+- 📈 **Personal Stats**: Users can view their own current streak anytime.
+
+### 🧠 Smart Features
+- ⏳ **Grace Period Logic**: Prevents unfair penalties during low activity or early setup.
+- 🚫 **Anti-Spam Friendly**: Counts only one message per user per day — no spamming to climb the leaderboard.
+- 👥 **Supports Multiple Users**: Scales to track streaks across large groups.
+
+### 🌐 Hosting & Status
+- 🖥️ **Uptime Page**: Comes with a simple `status.html` page to confirm the bot is alive — perfect for hosting on platforms like Replit, Railway, or Render.
+- 💡 **Single-File Simplicity**: Runs everything from a single Python file (`main.py`) with no external databases.
+- 📁 **Local Data Storage**: Saves user streak data to a lightweight `.json` file.
+
+---
+
+> 🎯 Ideal for:  
+> Habit-tracking groups, daily stand-ups, productivity challenges, language learning streaks, or just some fun community competition.
 
 ---
 
