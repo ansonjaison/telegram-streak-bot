@@ -30,7 +30,8 @@ Designed for small communities or close-knit circles, it’s lightweight, custom
 ```
 telegram-streak-bot/
 ├── main.py            # Main bot code (everything in one place)
-├── user_data.json      # (REQUIRED) Empty file created by user manually
+├── status.html        # Simple status page shown on web (for uptime checks)
+├── user_data.json     # (REQUIRED) Empty file created by user manually
 ├── requirements.txt   # Python dependencies
 ├── .gitignore         # To avoid uploading runtime/cache files
 ├── README.md          # You’re reading it
