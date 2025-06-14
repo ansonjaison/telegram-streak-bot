@@ -1,0 +1,7 @@
+python-telegram-bot==20.8
+Flask
+requests
+apscheduler
+pytz
+nest_asyncio
+ujson
